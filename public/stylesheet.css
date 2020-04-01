@@ -25,27 +25,28 @@ article{
 
 section{
     /* border:5px solid black; */
-    padding-bottom:20px;
-    align-items:center;
+    padding-bottom:15px;
+    
 }
 
 form{
     width:30vw;
-    align-items:center;
     justify-content:center;
     /* border:3px solid black; */
 }
 
 #searchBar{
+
     display:flex;
     width:100%;
-    margin-bottom:10px;
+    margin-bottom:25px;
     min-height:40px;
     min-width:100px;
     padding:10px;
     font-size:20px;
     border-radius:20px;
     border:1px #dfe1e5 solid;
+    /* border:3px solid black; */
 }
 
 #searchBar:hover{
@@ -53,11 +54,12 @@ form{
 }
 
 #buttons{
+    align-self:center;
     display:flex;
     justify-content:space-around;
     flex-direction:row;
-    /* border: solid 3px red; */
     width:100%;
+    /* border: solid 3px red; */
 }
 
 .button{
@@ -66,9 +68,19 @@ form{
     color:#5F6368;
     text-align:center;
     cursor:pointer;
+    padding:8px 20px;
+    font-size:16px;
+    border-radius:3px;
 }
 
 .button:hover{
     color:black;
     border:1px solid grey;
+}
+
+#left-button{
+    margin-left:110px;
+}
+#right-button{
+    margin-right:110px;
 }
