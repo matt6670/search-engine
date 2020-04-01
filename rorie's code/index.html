@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="stylesheet.css" type="text/css" rel="stylesheet">
     <title>Document</title>
     
 </head>
@@ -11,11 +11,11 @@
     <article>
         <section id="logo"><h1>Google</h1></section>
         <section id="searchForm">
-            <form>
-                <input id="searchBar" type="search" placeholder="Enter search here" required>
+            <form action="http://localhost:3000/search" method="POST">
+                <input id="searchBar" type="search" placeholder="Enter search here" name="searchBar" required>
                 <div id="buttons">
-                    <input type="submit" value="Search">
-                    <input type="submit" value="I'm Feeling Lucky">
+                    <input type="submit" value="Search" name="search">
+                    <input type="submit" value="I'm Feeling Lucky" name="lucky">
                 </div>
             </form>
         </section> 
