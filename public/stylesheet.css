@@ -5,12 +5,30 @@ body{
     height:85vh;
     width:100%;
     justify-content:center;
-    
     align-items:center;
 }
 
+span:nth-child(n){
+    color:#ffe432
+}
+span:nth-child(2n){
+    color:#ff5d4e;
+}
+span:nth-child(3n){
+    color:#3e8eff;
+}
+
+#logo{
+    display:flex;
+    padding:0;
+    margin:0;
+}
+
 h1{
-    font-size:40px;
+    margin-bottom:20px;
+    font-size:80px;
+    font-family: 'Exo', sans-serif;
+    /* border:5px solid black; */
 }
 
 article{
@@ -24,8 +42,9 @@ article{
 }
 
 section{
-    /* border:5px solid black; */
+    /* border:5px solid red;  */
     padding-bottom:15px;
+    height:auto;
     
 }
 
