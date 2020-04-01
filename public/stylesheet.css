@@ -5,12 +5,30 @@ body{
     height:85vh;
     width:100%;
     justify-content:center;
-    
     align-items:center;
 }
 
+span:nth-child(n){
+    color:#ffe432
+}
+span:nth-child(2n){
+    color:#ff5d4e;
+}
+span:nth-child(3n){
+    color:#3e8eff;
+}
+
+#logo{
+    display:flex;
+    padding:0;
+    margin:0;
+}
+
 h1{
-    font-size:40px;
+    margin-bottom:20px;
+    font-size:80px;
+    font-family: 'Exo', sans-serif;
+    /* border:5px solid black; */
 }
 
 article{
@@ -24,8 +42,9 @@ article{
 }
 
 section{
-    /* border:5px solid black; */
+    /* border:5px solid red;  */
     padding-bottom:15px;
+    height:auto;
     
 }
 
@@ -35,21 +54,34 @@ form{
     /* border:3px solid black; */
 }
 
-#searchBar{
-
+#searchContainer{
     display:flex;
-    width:100%;
+    align-items:center;
+    width:auto;
     margin-bottom:25px;
-    min-height:40px;
-    min-width:100px;
-    padding:10px;
-    font-size:20px;
-    border-radius:20px;
+    min-height:30px;
+    /* min-width:100px; */
+    padding:10px 18px;
+    border-radius:30px;
     border:1px #dfe1e5 solid;
     /* border:3px solid black; */
 }
 
-#searchBar:hover{
+#searchIcon{
+    font-size:15px;
+    color:grey;
+    padding:0;
+}
+
+#searchBar{
+    border:0;
+    padding-left:20px;
+    width:100%;
+    height:100%;
+    font-size:20px;
+}
+
+#searchContainer:hover{
     box-shadow: 2px 2px 5px grey;
 }
 
